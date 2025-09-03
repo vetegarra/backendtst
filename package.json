@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/vetegarra/backendtst/issues"
   },
-  "homepage": "https://github.com/vetegarra/backendtst#readme"
+  "homepage": "https://github.com/vetegarra/backendtst#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "graphql": "15",
+    "mongoose": "^8.18.0"
+  }
 }
